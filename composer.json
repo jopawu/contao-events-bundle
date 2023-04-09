@@ -1,6 +1,6 @@
 {
-  "name": "contao/kufowu-events-bundle",
-  "description": "Adds KufoWu Events functionality to Contao",
+  "name": "jopawu/iit-events-bundle",
+  "description": "Adds Events Functionality to Contao",
   "license": "",
   "type": "contao-bundle",
   "authors": [
@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "iit\\Contao\\KuFoWuEventsBundle\\": "src/"
+      "iit\\Contao\\iitEventsBundle\\": "src/"
     }
   }
 }
