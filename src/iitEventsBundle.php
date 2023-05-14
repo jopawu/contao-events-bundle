@@ -1,6 +1,6 @@
 <?php
 
-namespace iit\Contao\iitEventsBundle;
+namespace iitContao\iitEventsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
