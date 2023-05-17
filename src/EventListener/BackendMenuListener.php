@@ -29,11 +29,11 @@ class BackendMenuListener
         $contentNode = $tree->getChild('content');
 
         $node = $factory
-            ->createItem('iit-events-backend')
+            ->createItem('contao-events-backend')
             ->setUri($this->router->generate(BackendController::class))
             ->setLabel('iit Events')
-            ->setLinkAttribute('title', 'iit Events')
-            ->setLinkAttribute('class', 'iit-events-backend')
+            ->setLinkAttribute('title', 'Events')
+            ->setLinkAttribute('class', 'contao-events-backend')
             ->setCurrent($this->requestStack->getCurrentRequest()->get('_controller') === BackendController::class)
         ;
 

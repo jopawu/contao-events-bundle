@@ -8,7 +8,7 @@ use Twig\Environment as TwigEnvironment;
 
 /**
  * @Route("/contao/contao-events-backend",
- *     name=iitEventsBackendController::class,
+ *     name=ContaoEventsBackendController::class,
  *     defaults={"_scope": "backend"}
  * )
  */
@@ -24,7 +24,7 @@ class ContaoEventsBackendController
     public function __invoke(): Response
     {
         return new Response($this->twig->render(
-            'iit-events-backend.html.twig',
+            'contao-events-backend.html.twig',
             []
         ));
     }
