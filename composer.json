@@ -1,7 +1,7 @@
 {
   "name": "jopawu/contao-events-bundle",
   "description": "Adds Events Functionality to Contao",
-  "license": "",
+  "license": "MIT",
   "type": "contao-bundle",
   "authors": [
     {
