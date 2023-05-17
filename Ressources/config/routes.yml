@@ -1,3 +1,3 @@
-iitContao.iitEventsBundle.controller:
+iit.contaoeventsbundle.controller:
   resource: ../src/Controller
   type: annotation

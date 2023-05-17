@@ -1,6 +1,6 @@
 <?php
 
-namespace iitContao\iitEventsBundle\EventListener;
+namespace iit\ContaoEventsBundle\EventListener;
 
 /**
  * @ServiceTag("kernel.event_listener", event="contao.backend_menu_build", priority=-255)

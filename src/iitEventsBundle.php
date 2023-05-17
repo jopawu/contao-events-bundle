@@ -1,10 +1,10 @@
 <?php
 
-namespace iitContao\iitEventsBundle;
+namespace iit\ContaoEventsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class iitEventsBundle extends Bundle
+class ContaoEventsBundle extends Bundle
 {
 
 }

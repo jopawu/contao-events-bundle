@@ -1,13 +1,13 @@
 <?php
 
-namespace iitContao\iitEventsBundle;
+namespace iit\ContaoEventsBundle;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\ConfigurableExtension;
 
-class iitEventsExtension extends ConfigurableExtension
+class ContaoEventsExtension extends ConfigurableExtension
 {
     protected function loadInternal(array $mergedConfig, ContainerBuilder $container)
     {

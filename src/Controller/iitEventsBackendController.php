@@ -1,18 +1,18 @@
 <?php
 
-namespace iitContao\Controller;
+namespace iit\ContaoEventsBundle\Controller;
 
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Response;
 use Twig\Environment as TwigEnvironment;
 
 /**
- * @Route("/contao/iit-events-backend",
+ * @Route("/contao/contao-events-backend",
  *     name=iitEventsBackendController::class,
  *     defaults={"_scope": "backend"}
  * )
  */
-class iitEventsBackendController
+class ContaoEventsBackendController
 {
     private $twig;
 

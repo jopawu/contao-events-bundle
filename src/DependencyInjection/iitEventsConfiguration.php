@@ -1,11 +1,11 @@
 <?php
 
-namespace iitContao\iitEventsBundle;
+namespace iit\ContaoEventsBundle;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 
-class iitEventsConfiguration implements ConfigurationInterface
+class ContaoEventsConfiguration implements ConfigurationInterface
 {
     public function getConfigTreeBuilder()
     {
